@@ -1,0 +1,7 @@
+1. autowire.byType
+2. autowire.byName
+3. autowire.constructor
+4. autowire.annotations
+5. standaloneCollections
+6. streotypeAnnotations
+7. injecting.interfaces
