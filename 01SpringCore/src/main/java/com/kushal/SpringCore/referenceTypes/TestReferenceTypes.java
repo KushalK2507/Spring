@@ -1,0 +1,17 @@
+package com.kushal.SpringCore.referenceTypes;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestReferenceTypes {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext(
+				"com/kushal/SpringCore/referenceTypes/Referenceconfig.xml");
+		
+		Student student=(Student)context.getBean("student");
+		System.out.println(student.getName());
+		System.out.println(student.getScores());
+	
+	}
+}

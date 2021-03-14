@@ -1,0 +1,15 @@
+Packages name
+1. SpringCore
+2. SpringCore.list
+3. SpringCore.set
+4. SpringCore.map
+5. SpringCore.properties
+6. SpringCore.referenceTypes
+7. SpringCore.lc.xml
+8. SpringCore.lc.interfaces
+9. SpringCore.lc.annotations
+10. SpringCore.DependecyCheck
+11. SpringCore.InnerBeans
+13. SpringCore.constructorInjection
+14. SpringCore.constructorInjection.ambiquity
+15. SpringCore.propertyPlaceHolder
