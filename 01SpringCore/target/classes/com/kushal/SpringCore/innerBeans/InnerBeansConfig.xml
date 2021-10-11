@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean name="employee"
+		class="
+		com.kushal.SpringCore.innerBeans.Employee " p:id="123" scope="prototype">
+		<property name="address">
+			<!-- Below is the way of defining the Inner Bean and giving the name is 
+				optional -->
+			<bean class="com.kushal.SpringCore.innerBeans.Address"
+				p:hNo="20" p:street="Indira Nagar" p:city="Lucknow" />
+		</property>
+	</bean>
+	<context:annotation-config />
+</beans>
