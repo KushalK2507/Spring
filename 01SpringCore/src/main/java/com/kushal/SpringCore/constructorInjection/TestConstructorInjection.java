@@ -11,6 +11,8 @@ public class TestConstructorInjection {
 		Employee bean = (Employee) context.getBean("emp");
 
 		System.out.println(bean);
+		
+		System.out.println(bean.hashCode());
 
 	}
 
